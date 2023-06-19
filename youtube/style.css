@@ -50,3 +50,131 @@ body {
 a {
   text-decoration: none;
 }
+
+.page-header {
+  grid-area: nav-header;
+  background-color: rgb(24, 24, 24);
+  padding: 10px;
+  margin-left: 0px;
+  position: fixed;
+  width: 2000px;
+}
+
+.page-body {
+  margin-top: 100px;
+  margin-left: 150px;
+  grid-area: main-body;
+  padding: 10px;
+  width: 1000px;
+}
+
+.page-sidebar {
+  position: fixed;
+  grid-area: nav-side;
+  background-color: rgb(24, 24, 24);
+  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 0px;
+  width: 70px;
+  text-align: center;
+  margin-right: 0px;
+  height: 1000px;
+}
+
+.page-footer {
+  grid-area: footer;
+
+  padding: 10px;
+}
+
+.my-page {
+  display: grid;
+  grid-template-areas:
+    "nav-header  nav-header  nav-header  nav-header"
+    "nav-side   main-body   main-body        main-body"
+    "footer   footer    footer      footer";
+}
+
+#brand {
+  color: white;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+
+  margin: 14px 10px 10px 0px;
+}
+#brand-logo {
+  height: 50px;
+  margin: 0px 10px 10px 100px;
+}
+
+sup {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.menu {
+  padding: 10px;
+  padding-left: 20px;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 50px;
+}
+
+.icon-text {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-size: 11px;
+}
+
+.icon {
+  width: 30px;
+}
+.search-box {
+  width: 450px;
+  margin-left: 150px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 10px;
+  background-color: #0f0f0f;
+  height: 30px;
+  border: rgb(24, 24, 24) solid 1px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+}
+.search-btn {
+  width: 80px;
+  border-top-right-radius: 30px;
+  height: 50px;
+  background-color: rgb(39, 34, 34);
+  border-bottom-right-radius: 30px;
+  border: none;
+  margin: 0px 0px 30px 600px;
+
+  position: absolute;
+}
+
+.search {
+  width: 40px;
+
+  height: 40px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.mike {
+  margin-left: 700px;
+  margin-top: 10px;
+  position: absolute;
+  width: 30px;
+  border-radius: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+.mike-bg {
+  background-color: rgb(215, 14, 14);
+  color: red;
+  width: 50px;
+}

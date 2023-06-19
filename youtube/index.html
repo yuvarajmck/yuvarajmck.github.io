@@ -5,38 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Text</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
-    <section>
-      <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4"
-        ><img
-          class="video-content"
-          src="https://i.ytimg.com/vi/3PHXvlpOkf4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCmTrrIg-W3jYo8onQ7_9kNFMLVhg"
-          alt="video"
-      /></a>
-    </section>
-    <section class="flex">
-      <a href="https://www.youtube.com/@freecodecamp">
-        <img
-          class="logo"
-          src="https://yt3.googleusercontent.com/ytc/AGIKgqMl9TL4OpwS8Zc5jHrNnfO01f_Wbovye9mQzfp36Q=s176-c-k-c0x00ffffff-no-rj"
-          alt="Profile-Picture"
-        />
-      </a>
+    <section class="my-page">
+      <!--My-Page-Header-->
 
-      <div>
-        <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4">
-          <p class="video-title">
-            Build 15 JavaScript Projects - Vanilla JavaScript Course
-          </p>
-        </a>
+      <div class="page-header">
+        <div class="flex">
+          
+          <a href="https://www.youtube.com"><div class="flex">
+            <img src="./assets/youtube.png" alt="Brand" id="brand-logo" />
+            <p id="brand">YouTube<sup>IN</sup></p>
+            
+          </div>
+          </div>
+        
+        </a>  
+        <div>
+          <input class="search-box" type="text" placeholder="Search">
+          <button class="search-btn"><img src="assets/search.png" class="search" alt="search"></button>
+        </div>
+        <div class="mike-bg">
 
-        <a href="https://www.youtube.com/@freecodecamp"
-          ><p class="channel">freeCodeCamp.org &#x2713;</p></a
-        >
+              <img src="assets/mike.png" class="mike" alt="voice-search">
+       
+          
+        </div>
+          
+        </div>
 
-        <p class="video-stats">2.5M views &middot; 3 years ago</p>
+      <!--My-Page-Navbar-->
+      <div class="page-sidebar">
+        <div><img src="./assets/menu.png" class="menu" alt=""></div>
+        <img src="./assets/home.png" class="icon" alt="home-icon">
+        <p class="icon-text">Home</p>
+        <img src="./assets/youtube-shorts.png" class="icon" alt="home-icon">
+        <p class="icon-text">Shorts</p>
+        <img src="./assets/subscription.png"  alt="home-icon">
+        <p class="icon-text">Subscriptions</p>
+        <img src="./assets/lib.png" class="icon" alt="home-icon">
+        <p class="icon-text">Library</p>
+        <img src="./assets/history.png" class="icon" alt="home-icon">
+        <p class="icon-text">History</p>
+
       </div>
+      <section class="page-body">
+        <section>
+        
+          <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4"
+            ><img
+              class="video-content"
+              src="https://i.ytimg.com/vi/3PHXvlpOkf4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCmTrrIg-W3jYo8onQ7_9kNFMLVhg"
+              alt="video"
+          /></a>
+        </section>
+        <section class="flex">
+          <a href="https://www.youtube.com/@freecodecamp">
+            <img
+              class="logo"
+              src="https://yt3.googleusercontent.com/ytc/AGIKgqMl9TL4OpwS8Zc5jHrNnfO01f_Wbovye9mQzfp36Q=s176-c-k-c0x00ffffff-no-rj"
+              alt="Profile-Picture"
+            />
+          </a>
+
+          <div>
+            <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4">
+              <p class="video-title">
+                Build 15 JavaScript Projects - Vanilla JavaScript Course
+              </p>
+            </a>
+
+            <a href="https://www.youtube.com/@freecodecamp"
+              ><p class="channel">freeCodeCamp.org &#x2713;</p></a
+            >
+
+            <p class="video-stats">2.5M views &middot; 3 years ago</p>
+          </div>
+        </section>
+      </section>
     </section>
   </body>
 </html>
