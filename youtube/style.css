@@ -62,9 +62,9 @@ a {
 
 .page-body {
   margin-top: 100px;
-  margin-left: 150px;
+  margin-left: 50px;
   grid-area: main-body;
-  padding: 10px;
+  padding: 20px;
   width: 1000px;
 }
 
@@ -177,4 +177,8 @@ sup {
   background-color: rgb(215, 14, 14);
   color: red;
   width: 50px;
+}
+
+.video {
+  padding: 20px;
 }
