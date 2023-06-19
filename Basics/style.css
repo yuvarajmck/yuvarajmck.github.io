@@ -1,0 +1,36 @@
+button{
+    color: white;
+    margin: 20px;
+    background-color: rgb(200, 0, 0);
+    border: none;
+    width: 105px;
+    height: 36px;
+    border-radius: 2px;
+}
+
+#joinButton{
+    margin: 20px;
+    background-color: white;
+    border:  rgb(10, 170, 233) solid 1px;
+    color: rgb(10, 170, 233);
+}
+
+#tweetButton{
+    color: white;
+    background-color: rgb(34, 162, 212);
+    border: none;
+    width: 105px;
+    height: 36px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 18px;
+}
+
+#joinButton:hover{
+    background-color: rgb(10, 170, 233);
+    color: white;
+    border: none;
+
+}
