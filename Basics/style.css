@@ -1,21 +1,17 @@
 button{
     color: white;
-    margin: 20px;
     background-color: rgb(200, 0, 0);
     border: none;
-    width: 105px;
-    height: 36px;
+    padding: 10px 10px 10px 10px;
     border-radius: 2px;
     cursor: pointer;
 }
 
 #subscribe-Button{
     color: white;
-    margin: 20px;
+    
     background-color: rgb(200, 0, 0);
     border: none;
-    width: 105px;
-    height: 36px;
     border-radius: 2px;
 
 }
@@ -31,17 +27,18 @@ button{
 
 
 #join-Button{
-    margin: 20px;
+    margin: 10px;
     background-color: white;
     border:  rgb(10, 170, 233) solid 1px;
     color: rgb(10, 170, 233);
+    padding: 9px 16px 9px 16px;
 }
 
 #join-Button:hover{
     background-color: rgb(10, 170, 233);
     color: white;
     border: none;
-
+    padding: 10px 17px 10px 17px;
 }
 
 #join-Button:active{
@@ -52,14 +49,13 @@ button{
     color: white;
     background-color: rgb(34, 162, 212);
     border: none;
-    width: 105px;
-    height: 36px;
     border-radius: 2px;
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
     border-radius: 18px;
     transition: background-color 0.15s, color 0.15s;
+    padding: 10px;
 }
 
 #tweet-Button:hover{
