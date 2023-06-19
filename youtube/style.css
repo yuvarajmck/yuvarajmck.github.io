@@ -1,15 +1,52 @@
 .video-title {
+  color: rgb(239, 240, 241);
   font-family: Arial;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   width: 300px;
   line-height: 24px;
   font-style: italic;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .video-stats {
   font-family: Arial;
   font-size: 14px;
   margin-top: 0px;
+  margin-bottom: 0px;
   color: rgb(96, 96, 96);
+}
+
+body {
+  background-color: #0f0f0f;
+}
+
+.channel {
+  color: greenyellow;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.flex {
+  display: flex;
+  float: left;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin: 0px 10px 0px 10px;
+  border-radius: 50px;
+}
+
+.video-content {
+  width: 360px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
 }
