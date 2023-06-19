@@ -2,7 +2,7 @@
   color: rgb(239, 240, 241);
   font-family: Arial;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: normal;
   width: 300px;
   line-height: 24px;
   font-style: italic;
@@ -16,6 +16,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   color: rgb(96, 96, 96);
+  font-weight: normal;
 }
 
 body {
@@ -61,8 +62,8 @@ a {
 }
 
 .page-body {
-  margin-top: 100px;
-  margin-left: 50px;
+  margin-top: 80px;
+  margin-left: 10px;
   grid-area: main-body;
   padding: 20px;
   width: 1000px;
@@ -148,7 +149,7 @@ sup {
   width: 80px;
   border-top-right-radius: 30px;
   height: 50px;
-  background-color: rgb(39, 34, 34);
+  background-color: rgb(35, 35, 35);
   border-bottom-right-radius: 30px;
   border: none;
   margin: 0px 0px 30px 600px;
