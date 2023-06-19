@@ -63,3 +63,8 @@ button{
     transition: box-shadow 0.15 s;
 }
 
+#tweet-Button:active{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.15 s;
+}
+
