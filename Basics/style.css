@@ -132,3 +132,41 @@ button {
   margin-right: 20px;
   padding: 9px 40px 9px 40px;
 }
+
+#uber-button:hover {
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+
+#amazon-button:hover {
+  background-color: rgb(149, 149, 22);
+  transition: opacity 0.15s;
+}
+
+#github-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.15s;
+}
+
+#bootstrap-button:hover {
+  background-color: rgb(104, 63, 165);
+  transition: background-color 0.15s;
+}
+
+#bootstrap-button1:hover {
+  background-color: rgb(104, 63, 165);
+  color: white;
+  transition: background-color 0.15s;
+}
+
+#linkedin-button:hover {
+  background-color: rgb(9, 81, 153);
+  transition: background-color 0.15s;
+}
+
+#linkedin-button1:hover {
+  background-color: rgb(89, 144, 198);
+  transition: background-color 0.15s;
+  border: rgb(9, 81, 153) solid 1px;
+  color: rgb(9, 81, 153);
+}
