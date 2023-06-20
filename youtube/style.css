@@ -16,7 +16,7 @@
 }
 
 .video-title:hover {
-  color: greenyellow;
+  color: rgb(121, 181, 31);
 }
 
 .video-stats {
@@ -33,7 +33,7 @@ body {
 }
 
 .channel {
-  color: greenyellow;
+  color: rgb(121, 181, 31);
   margin-top: 0px;
   margin-bottom: 5px;
 }
@@ -65,14 +65,15 @@ a {
   grid-area: nav-header;
   background-color: rgb(24, 24, 24);
   padding: 10px;
+  padding-bottom: 5px;
   margin-left: 0px;
   position: fixed;
   width: 2000px;
 }
 
 .page-body {
-  margin-top: 80px;
-  margin-left: 10px;
+  margin-top: 70px;
+  margin-left: 0px;
   grid-area: main-body;
   padding: 20px;
   width: 1000px;
@@ -85,7 +86,8 @@ a {
   padding-left: 10px;
   padding-top: 13px;
   padding-bottom: 0px;
-  width: 70px;
+  padding-right: 10px;
+  width: 60px;
   text-align: center;
   margin-right: 0px;
   height: 1000px;
@@ -108,13 +110,13 @@ a {
 #brand {
   color: white;
   font-family: Roboto, Arial, sans-serif;
-  font-size: 20px;
-
+  font-size: 17px;
+  font-weight: normal;
   margin: 14px 10px 10px 0px;
 }
 #brand-logo {
-  height: 50px;
-  margin: 0px 10px 10px 100px;
+  height: 40px;
+  margin: 3px 5px 10px 100px;
 }
 
 sup {
@@ -141,58 +143,87 @@ sup {
   width: 30px;
 }
 .search-box {
-  width: 450px;
+  width: 500px;
   margin-left: 150px;
+  margin-top: 5px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   padding: 10px;
   background-color: #0f0f0f;
-  height: 30px;
+  height: 20px;
   border: rgb(24, 24, 24) solid 1px;
   color: white;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 20px;
   position: absolute;
 }
 .search-btn {
   width: 80px;
   border-top-right-radius: 30px;
-  height: 50px;
+  height: 40px;
   background-color: rgb(35, 35, 35);
   border-bottom-right-radius: 30px;
   border: none;
-  margin: 0px 0px 30px 600px;
+  margin: 5px 0px 30px 650px;
 
   position: absolute;
 }
 
 .search {
-  width: 40px;
+  width: 30px;
 
-  height: 40px;
+  height: 30px;
   cursor: pointer;
+
   margin-top: 5px;
 }
 
 .mike {
-  margin-left: 700px;
-  margin-top: 10px;
+  margin-left: 750px;
+  margin-top: 5px;
   position: absolute;
-  width: 30px;
+  padding: 10px;
+  width: 40px;
   border-radius: 20px;
   border: none;
   box-sizing: border-box;
-}
-.mike-bg {
-  background-color: rgb(215, 14, 14);
-  color: red;
-  width: 50px;
+  background-color: rgb(35, 35, 35);
 }
 
 .video {
   padding: 20px;
 }
 
-placeholder {
+.settings {
+  position: fixed;
+  height: 30px;
+  margin: 10px 0px 0px 85%;
+}
+
+.signin {
+  width: 25px;
+  height: 25px;
+
+  border: none;
+  align-items: center;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.signin-txt {
+  color: #40c057;
+  padding: 12px;
+  padding-left: 0px;
+  font-size: 15px;
   font-weight: normal;
+}
+
+.signin-btn {
+  background-color: rgb(24, 24, 24);
+  position: absolute;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  height: 40px;
+  margin: 5px 0px 10px 52%;
+  cursor: pointer;
 }
