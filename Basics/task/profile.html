@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/profile.css" />
+  </head>
+  <body>
+    <h2 id="demo">Employees Details</h2>
+    <section class="box" id="table">
+      <table id="mytable">
+        <tr>
+          <td>S.NO</td>
+          <td>NAME</td>
+          <td>EMAIL</td>
+          <td>AGE</td>
+          <td>POSITION</td>
+          <td>OPTIONS</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><button class="empty" onclick="display()">Yuvaraj</button></td>
+          <td>yuvaraj.m@terzocloud.com</td>
+          <td>20</td>
+          <td>Intern</td>
+          <td><button class="inline-delete" onclick="singDel()">Delete</button></td>
+        </tr>
+      </table>
+
+      <br /><br /><br />
+      <button onclick="hide()">Add Employee</button>
+      <p></p>
+      <button onclick="deleteEle()">Delete Employee</button>
+    </section>
+    <section class="box" id="forms">
+      <label for="name">Name</label>
+      <br />
+      <input type="text" name="name" id="name" />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <br />
+      <input type="email" name="age" id="email" />
+      <br />
+      <br />
+      <label for="age">Age</label>
+      <br />
+      <input type="text" name="age" id="age" />
+      <br />
+      <br />
+      <label for="pos">Position</label>
+      <br />
+      <input type="text" name="pos" id="pos" />
+      <br />
+      <br />
+      <button onclick="addElement()" id="submit">Submit</button>
+    </section>
+
+    <section id="delete" class="box">
+      <label for="id"> Enter the table id<br /><br /> </label>
+      <input type="text" id="id" />
+      <br /><br />
+      <button onclick="deleteElement()">Delete</button>
+    </section>
+    <script src="js/table.js"></script>
+  </body>
+</html>
